@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Healthshare - Equal Healthcare Now</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="../bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="index.html">Healthshare</a>
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="participate.html">Participate</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="analytics.html">Analytics</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+          <h1>Contact Us<small></small></h1>
+        </div>
+        <div class="row">
+          <div class="span10">
+            <h2>Questions or concerns? Let us know!</h2>
+            	<form action="../php/email.php" method="post">
+            		<fieldset>
+            			<label for="name">Name</label>
+            			<input type="text" name="name" id="name" placeholder="Enter your name or organization" />
+            			
+            			<label for="email">Email</label>
+            			<input type="email" name="email" id="email" placeholder="Enter your email address" />
+            			
+            			<label for="message">Message</label>
+            			<textarea id="message" name="message" placeholder="Type your message here"></textarea>
+            			
+            			<input id="submit" name="submit" type="submit" value="Send message" class="btn primary large"/>
+            		</fieldset>
+            	</form>
+          </div>
+          <div class="span4">
+            <h3>Or just email us at 
+            <a href = "mailto:health@healthshare.org">health@healthshare.org</a></h3>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>&copy; 2012 Healthshare</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
